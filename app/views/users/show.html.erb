@@ -1,9 +1,18 @@
 <section class="user-section">
   <h2><%= "Name: #{@user.name}" %></h2>
+   <%= request_control(@user) %>
+   
   <article class="timeline">
     <h3>Recent posts:</h3>
     <ul class="posts">
       <%= render @posts %>
+    </ul>
+    <br>
+    <h3>Pending Friend Requests:</h3>
+    <ul class="posts">
+      <% @user.friend_requests.each do |request| %>
+          <%= request.name %>
+        <% end %>
     </ul>
   </article>
 </section>
