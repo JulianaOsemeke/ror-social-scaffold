@@ -76,6 +76,10 @@ Open `http://localhost:3000/` in your browser.
 - GitHub: [@stephanie041996](https://github.com/Stephanie041996)
 - LinkedIn: [Stephanie Sakuhuni](www.linkedin.com/in/stephanie-michelle-sakuhuni) 
 
+**Juliana Osemeke**
+- GitHub: [@githubhandle](https://github.com/JulianaOsemeke)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juliana-osemeke/)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
