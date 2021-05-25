@@ -1,10 +1,34 @@
-# Scaffold for social media app with Ruby on Rails
+# Stay In Touch Social Media App
 
-> This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
+
+![screenshot](./Image/StayInTouchApp.png) 
+
+> This collaborative project entails building upon an already existing social media project with improvised features
+These features are enumerated below.
+
+### As a guest user:
+
+- I want to be able to create account/log in.
+- I can see only “Sign in” and “Sign out” page.
+
+### As a logged-in user:
+- I want to be able to see all users list.
+- I want to be able to see selected user page with their user name and all posts written by them (the most recent posts on the top).
+- I want to be able to send a friendship invitation.
+- I want to see a button “Invite to friendship” next to the name of user who is not my friend yet - on both users’ list and single user page.
+- I want to be able to see pending friendship invitations sent to me from other users.
+- I want to be able to accept or reject friendships invitation.
+- I want to be able to create new posts (text only).
+- I want to be able to like/dislike posts (but I can like single post only once).
+- I want to be able to add comments to posts.
+- I want to be able to see “Timeline” page with posts (with number of likes and comments) written by me and all my friends (the most recent posts on the top).
+- Timeline page should be the root page of the app.
+
+
 
 ## Built With
 
-- Ruby v2.7.0
+- Ruby v2.7.2
 - Ruby on Rails v5.2.4
 
 ## Live Demo
@@ -12,9 +36,26 @@
 [Live Site](https://calm-woodland-30958.herokuapp.com/)
 
 
-## Getting Started
+## Getting started
 
-To get a local copy up and running follow these simple example steps.
+To get started with the app, first clone the repo and `cd` into the directory:
+
+```
+$ git clone https://github.com/JulianaOsemeke/ror-social-scaffold.git
+$ cd ROR-SOCIAL-SCAFFOLD
+```
+
+Then install the needed packages (while skipping any Ruby gems needed only in production):
+
+```
+$ bundle install
+```
+
+Next, migrate the database:
+
+```
+$ rails db:migrate
+```
 
 ### Prerequisites
 
@@ -96,5 +137,5 @@ TBA
 
 ## 📝 License
 
-TBA
+MIT
 
