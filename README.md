@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-TBA
+[Live Site](https://calm-woodland-30958.herokuapp.com/)
 
 
 ## Getting Started
@@ -57,21 +57,24 @@ Start server with:
 
 Open `http://localhost:3000/` in your browser.
 
-### Run tests
+### Running RSpec tests
 
-```
-    rpsec --format documentation
-```
+- `cd` into the project directory;
+- Run `bundle exec rspec`. 
 
-> Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
 
 ### Deployment
-
-TBA
+- To deploy locally after cloning
+- Run "rails server" in terminal
+- open https://localhost:3000 in browser
+- sign up and enjoy
 
 ## Authors
 
-TBA
+**Stephanie Sakuhuni**
+
+- GitHub: [@stephanie041996](https://github.com/Stephanie041996)
+- LinkedIn: [Stephanie Sakuhuni](www.linkedin.com/in/stephanie-michelle-sakuhuni) 
 
 ## 🤝 Contributing
 
